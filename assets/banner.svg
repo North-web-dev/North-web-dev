@@ -1,81 +1,99 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
   <defs>
-    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0c0810"/>
-      <stop offset="45%" stop-color="#1b1024"/>
-      <stop offset="78%" stop-color="#341a30"/>
-      <stop offset="100%" stop-color="#4a2440"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0712"/>
+      <stop offset="40%" stop-color="#1c1030"/>
+      <stop offset="72%" stop-color="#43203f"/>
+      <stop offset="100%" stop-color="#7a3450"/>
     </linearGradient>
-    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f5e9f0" stop-opacity="0.9"/>
-      <stop offset="35%" stop-color="#e9b9cd" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#e9b9cd" stop-opacity="0"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9c2" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#f6c48a" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f6c48a" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c9aebd" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#c9aebd" stop-opacity="0.16"/>
+    <linearGradient id="m3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a2a49"/><stop offset="1" stop-color="#3f1e39"/></linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1c33"/><stop offset="1" stop-color="#291427"/></linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c0f1e"/><stop offset="1" stop-color="#120a15"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1530"/><stop offset="100%" stop-color="#160b1a"/>
     </linearGradient>
-    <clipPath id="r"><rect width="1200" height="320" rx="16"/></clipPath>
+    <linearGradient id="moonref" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe9c2" stop-opacity="0.5"/><stop offset="100%" stop-color="#ffe9c2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mistg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7cdd8" stop-opacity="0"/><stop offset="100%" stop-color="#e7cdd8" stop-opacity="0.22"/>
+    </linearGradient>
+    <clipPath id="cp"><rect width="1200" height="340" rx="16"/></clipPath>
   </defs>
 
-  <g clip-path="url(#r)">
-    <rect width="1200" height="320" fill="url(#night)"/>
+  <g clip-path="url(#cp)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
 
-    <!-- stars -->
+    <!-- stars (twinkle) -->
     <g fill="#f3e9ef">
-      <circle cx="120" cy="54" r="1.2" opacity="0.7"/><circle cx="300" cy="40" r="1" opacity="0.5"/>
-      <circle cx="470" cy="66" r="1.3" opacity="0.75"/><circle cx="640" cy="34" r="1" opacity="0.5"/>
-      <circle cx="760" cy="60" r="1.1" opacity="0.6"/><circle cx="200" cy="96" r="1" opacity="0.45"/>
-      <circle cx="540" cy="100" r="1" opacity="0.5"/><circle cx="1080" cy="48" r="1.2" opacity="0.6"/>
-      <circle cx="1150" cy="90" r="1" opacity="0.45"/><circle cx="410" cy="120" r="1" opacity="0.4"/>
+      <circle cx="90" cy="40" r="1.1"><animate attributeName="opacity" values=".2;.9;.2" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="230" cy="66" r="1"><animate attributeName="opacity" values=".15;.7;.15" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="360" cy="34" r="1.2"><animate attributeName="opacity" values=".3;.95;.3" dur="3s" begin=".5s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="58" r="1"><animate attributeName="opacity" values=".2;.7;.2" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="96" r="1"><animate attributeName="opacity" values=".1;.6;.1" dur="4.6s" begin=".8s" repeatCount="indefinite"/></circle>
+      <circle cx="430" cy="100" r="1"><animate attributeName="opacity" values=".2;.7;.2" dur="3.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="620" cy="40" r="1"><animate attributeName="opacity" values=".25;.8;.25" dur="4s" begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1150" cy="120" r="1"><animate attributeName="opacity" values=".15;.6;.15" dur="5.4s" begin=".3s" repeatCount="indefinite"/></circle>
     </g>
 
-    <!-- moon -->
-    <circle cx="985" cy="96" r="120" fill="url(#moonGlow)"/>
-    <circle cx="985" cy="96" r="46" fill="#f4e7ee"/>
-    <circle cx="1004" cy="86" r="46" fill="#1b1024" opacity="0.85"/>  <!-- crescent shadow -->
+    <!-- moon (glow pulse) -->
+    <circle cx="980" cy="96" r="130" fill="url(#glow)"><animate attributeName="opacity" values=".78;1;.78" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="96" r="50" fill="#ffe9c6"/>
+    <g fill="#e9c79a" opacity=".5"><circle cx="966" cy="84" r="9"/><circle cx="998" cy="104" r="7"/><circle cx="972" cy="112" r="5"/></g>
 
-    <!-- distant ridge -->
-    <path d="M0 232 Q 200 188 420 224 T 820 216 T 1200 226 V320 H0 Z" fill="#120b18" opacity="0.75"/>
-
-    <!-- mist bands -->
-    <rect x="0" y="212" width="1200" height="52" fill="url(#mist)"/>
-    <g fill="#d8c2ce" opacity="0.10">
-      <rect x="60" y="238" width="520" height="10" rx="5"/>
-      <rect x="520" y="256" width="620" height="12" rx="6"/>
-      <rect x="740" y="228" width="360" height="8" rx="4"/>
+    <!-- birds (slow drift across) -->
+    <g stroke="#0e0812" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".8">
+      <animateTransform attributeName="transform" type="translate" values="40 6; -30 -10; -110 -2; 40 6" keyTimes="0;0.45;0.9;1" dur="22s" repeatCount="indefinite"/>
+      <path d="M812 78 q 8 -7 16 0 q 8 -7 16 0"/>
+      <path d="M860 96 q 6 -5 12 0 q 6 -5 12 0"/>
+      <path d="M790 108 q 5 -4 10 0 q 5 -4 10 0"/>
     </g>
 
-    <!-- pines (ink silhouette) -->
-    <g fill="#0a0610">
-      <g transform="translate(560,214)"><rect x="-3" y="30" width="6" height="34"/><path d="M0 -10 L22 26 H-22 Z"/><path d="M0 6 L28 40 H-28 Z"/></g>
-      <g transform="translate(690,226) scale(0.78)"><rect x="-3" y="30" width="6" height="40"/><path d="M0 -10 L22 26 H-22 Z"/><path d="M0 6 L28 40 H-28 Z"/></g>
-      <g transform="translate(80,224) scale(0.7)"><rect x="-3" y="30" width="6" height="46"/><path d="M0 -10 L22 26 H-22 Z"/><path d="M0 6 L28 40 H-28 Z"/></g>
+    <!-- mountain layers (far → near) -->
+    <path d="M0 196 Q 220 150 430 190 T 830 182 T 1200 196 V236 H0 Z" fill="url(#m3)"/>
+    <path d="M0 216 Q 300 168 560 210 T 1000 206 T 1200 214 V244 H0 Z" fill="url(#m2)"/>
+
+    <!-- mist between layers -->
+    <rect x="0" y="196" width="1200" height="44" fill="url(#mistg)"/>
+
+    <!-- near ridge with pines on it -->
+    <path d="M0 240 Q 260 214 520 238 T 980 234 T 1200 240 V262 H0 Z" fill="url(#m1)"/>
+    <g fill="#0d0712">
+      <g transform="translate(120,236)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
+      <g transform="translate(300,240) scale(.8)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
+      <g transform="translate(690,236) scale(.9)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
     </g>
 
-    <!-- minka house (ink silhouette, steep thatched roof) -->
-    <g fill="#080510" transform="translate(1075,206)">
-      <path d="M-70 34 L0 -20 L70 34 Z"/>            <!-- roof -->
-      <path d="M-58 34 L0 -8 L58 34 Z" fill="#0f0916"/>
-      <rect x="-44" y="34" width="88" height="42"/>  <!-- body -->
-      <rect x="-14" y="48" width="28" height="28" fill="#2a1526"/>  <!-- lit doorway (faint warm) -->
-    </g>
+    <!-- water -->
+    <rect x="0" y="262" width="1200" height="78" fill="url(#water)"/>
+    <!-- moon reflection on water -->
+    <rect x="965" y="262" width="30" height="70" fill="url(#moonref)"/>
+    <g stroke="#e9c79a" stroke-width="1.5" opacity=".35"><animate attributeName="opacity" values=".18;.5;.18" dur="4s" repeatCount="indefinite"/><line x1="958" y1="278" x2="1002" y2="278"/><line x1="963" y1="296" x2="997" y2="296"/><line x1="968" y1="312" x2="992" y2="312"/></g>
+    <!-- water ripples -->
+    <g stroke="#5a3350" stroke-width="1" opacity=".4"><animate attributeName="opacity" values=".2;.55;.2" dur="5.5s" begin="1s" repeatCount="indefinite"/><line x1="60" y1="290" x2="180" y2="290"/><line x1="380" y1="306" x2="520" y2="306"/><line x1="640" y1="284" x2="760" y2="284"/></g>
 
-    <!-- torii — the single colour accent (beni) -->
+    <!-- torii standing in the water — the colour accent -->
     <g transform="translate(250,150)">
-      <path d="M-84 6 q 84 -22 168 0 l -7 15 q -77 -18 -154 0 Z" fill="#e0455c"/>  <!-- kasagi -->
-      <rect x="-70" y="30" width="140" height="12" rx="2" fill="#d13a52"/>          <!-- nuki -->
-      <rect x="-52" y="6" width="15" height="118" rx="2" fill="#d9455f"/>           <!-- left pillar -->
-      <rect x="37" y="6" width="15" height="118" rx="2" fill="#d9455f"/>            <!-- right pillar -->
-      <rect x="-9" y="42" width="18" height="30" fill="#b83048"/>                   <!-- gakuzuka -->
+      <path d="M-80 4 q 80 -22 160 0 l -8 16 q -72 -18 -144 0 Z" fill="#e0455c"/>
+      <rect x="-66" y="30" width="132" height="11" rx="2" fill="#c9384f"/>
+      <rect x="-50" y="4" width="14" height="108" rx="2" fill="#d9455f"/>
+      <rect x="36" y="4" width="14" height="108" rx="2" fill="#d9455f"/>
+      <rect x="-8" y="41" width="16" height="26" fill="#b83048"/>
     </g>
-
-    <!-- foreground -->
-    <rect x="0" y="286" width="1200" height="34" fill="#070409"/>
+    <!-- torii reflection -->
+    <g transform="translate(250,262)" opacity=".28">
+      <rect x="-50" y="0" width="14" height="50" rx="2" fill="#d9455f"/>
+      <rect x="36" y="0" width="14" height="50" rx="2" fill="#d9455f"/>
+    </g>
 
     <!-- title -->
-    <text x="600" y="150" text-anchor="middle" font-size="56" font-weight="700" fill="#f4e7ee" letter-spacing="1.5">North-web-dev</text>
-    <text x="600" y="184" text-anchor="middle" font-size="15" font-weight="600" fill="#f5a9c1" letter-spacing="6">&#21271;&#12288;K I T A&#12288;&#183;&#12288;N O R T H</text>
-    <text x="600" y="210" text-anchor="middle" font-size="13.5" fill="#cbb2c0" letter-spacing="1.5" opacity="0.9">reverse engineering the wire &#183; byte-exact, or detectable</text>
+    <text x="600" y="150" text-anchor="middle" font-size="54" font-weight="700" fill="#f6ebf0" letter-spacing="1.5">North-web-dev</text>
+    <text x="600" y="182" text-anchor="middle" font-size="14.5" font-weight="600" fill="#f5a9c1" letter-spacing="6">&#21271;&#12288;K I T A&#12288;&#183;&#12288;N O R T H</text>
+    <text x="600" y="207" text-anchor="middle" font-size="13" fill="#d3bcc8" letter-spacing="1.5" opacity=".92">reverse engineering the wire &#183; byte-exact, or detectable</text>
   </g>
 </svg>

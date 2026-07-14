@@ -36,12 +36,12 @@ var Me = Dev{
 
 ### 作品 &nbsp;work
 
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/badge/impersonate--http-Go_·_byte--exact_TLS_%2B_HTTP%2F2-160f1c?style=flat-square&logo=go&logoColor=f5a9c1&labelColor=6d2b45"/></a>
+<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/badge/impersonate--http-Go_byte--exact_TLS_HTTP2-160f1c?style=flat-square&logo=go&logoColor=f5a9c1&labelColor=6d2b45"/></a>
 <img src="https://img.shields.io/badge/featured_in-awesome--go-e6a23c?style=flat-square&labelColor=160f1c"/>
 <br/>
-<a href="https://github.com/North-web-dev/fingerprint-db"><img src="https://img.shields.io/badge/fingerprint--db-Go_·_JA3%2FJA4_%2B_h2_db-160f1c?style=flat-square&logo=go&logoColor=e6a23c&labelColor=6d2b45"/></a>
+<a href="https://github.com/North-web-dev/fingerprint-db"><img src="https://img.shields.io/badge/fingerprint--db-Go_JA3--JA4_h2_db-160f1c?style=flat-square&logo=go&logoColor=e6a23c&labelColor=6d2b45"/></a>
 <br/>
-<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://img.shields.io/badge/tdata--extract-Python_·_Telegram_tdata-160f1c?style=flat-square&logo=python&logoColor=f5a9c1&labelColor=6d2b45"/></a>
+<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://img.shields.io/badge/tdata--extract-Python_Telegram_tdata-160f1c?style=flat-square&logo=python&logoColor=f5a9c1&labelColor=6d2b45"/></a>
 
 ### 記録 &nbsp;stats
 
