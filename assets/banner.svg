@@ -1,52 +1,95 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0b0712"/>
-      <stop offset="40%" stop-color="#1c1030"/>
-      <stop offset="72%" stop-color="#43203f"/>
-      <stop offset="100%" stop-color="#7a3450"/>
+      <stop offset="0%"  stop-color="#070510"/>
+      <stop offset="30%" stop-color="#150d27"/>
+      <stop offset="56%" stop-color="#301837"/>
+      <stop offset="78%" stop-color="#5c2a48"/>
+      <stop offset="92%" stop-color="#843a54"/>
+      <stop offset="100%" stop-color="#9a4059"/>
     </linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffe9c2" stop-opacity="0.75"/>
-      <stop offset="40%" stop-color="#f6c48a" stop-opacity="0.22"/>
+      <stop offset="0%"  stop-color="#fff2d6" stop-opacity="0.85"/>
+      <stop offset="35%" stop-color="#f6c48a" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#f6c48a" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="m3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a2a49"/><stop offset="1" stop-color="#3f1e39"/></linearGradient>
-    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1c33"/><stop offset="1" stop-color="#291427"/></linearGradient>
-    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c0f1e"/><stop offset="1" stop-color="#120a15"/></linearGradient>
+    <radialGradient id="moonface" cx="42%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#fff6e2"/><stop offset="100%" stop-color="#f4dca6"/>
+    </radialGradient>
+    <linearGradient id="m4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4d2c49"/><stop offset="1" stop-color="#3a2242"/></linearGradient>
+    <linearGradient id="m3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#392341"/><stop offset="1" stop-color="#291a33"/></linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241531"/><stop offset="1" stop-color="#180f22"/></linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#130b17"/><stop offset="1" stop-color="#0a0610"/></linearGradient>
     <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2a1530"/><stop offset="100%" stop-color="#160b1a"/>
+      <stop offset="0%" stop-color="#2c1633"/><stop offset="55%" stop-color="#1b0e21"/><stop offset="100%" stop-color="#100913"/>
     </linearGradient>
     <linearGradient id="moonref" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffe9c2" stop-opacity="0.5"/><stop offset="100%" stop-color="#ffe9c2" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ffe9c2" stop-opacity="0.55"/><stop offset="100%" stop-color="#ffe9c2" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="mistg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e7cdd8" stop-opacity="0"/><stop offset="100%" stop-color="#e7cdd8" stop-opacity="0.22"/>
+      <stop offset="0%" stop-color="#e7cdd8" stop-opacity="0"/><stop offset="100%" stop-color="#e7cdd8" stop-opacity="0.20"/>
     </linearGradient>
+    <linearGradient id="titleg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#fbe6ee"/><stop offset="100%" stop-color="#f5a9c1"/>
+    </linearGradient>
+    <linearGradient id="petg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7c0d3"/><stop offset="1" stop-color="#e87ea1"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050308" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="fire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe6a3" stop-opacity="1"/><stop offset="100%" stop-color="#e6a23c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="wisp" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
     <clipPath id="cp"><rect width="1200" height="340" rx="16"/></clipPath>
+    <path id="petal" d="M0,-4.6 C3.1,-4.2 3.6,-0.2 1.2,3.4 C0.6,4.3 -0.6,4.3 -1.2,3.4 C-3.6,-0.2 -3.1,-4.2 0,-4.6 Z"/>
   </defs>
 
   <g clip-path="url(#cp)">
     <rect width="1200" height="340" fill="url(#sky)"/>
 
-    <!-- stars (twinkle) -->
+    <!-- star field -->
     <g fill="#f3e9ef">
-      <circle cx="90" cy="40" r="1.1"><animate attributeName="opacity" values=".2;.9;.2" dur="3.5s" repeatCount="indefinite"/></circle>
-      <circle cx="230" cy="66" r="1"><animate attributeName="opacity" values=".15;.7;.15" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
-      <circle cx="360" cy="34" r="1.2"><animate attributeName="opacity" values=".3;.95;.3" dur="3s" begin=".5s" repeatCount="indefinite"/></circle>
-      <circle cx="520" cy="58" r="1"><animate attributeName="opacity" values=".2;.7;.2" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
-      <circle cx="150" cy="96" r="1"><animate attributeName="opacity" values=".1;.6;.1" dur="4.6s" begin=".8s" repeatCount="indefinite"/></circle>
-      <circle cx="430" cy="100" r="1"><animate attributeName="opacity" values=".2;.7;.2" dur="3.8s" begin="1.6s" repeatCount="indefinite"/></circle>
-      <circle cx="620" cy="40" r="1"><animate attributeName="opacity" values=".25;.8;.25" dur="4s" begin="2.4s" repeatCount="indefinite"/></circle>
-      <circle cx="1150" cy="120" r="1"><animate attributeName="opacity" values=".15;.6;.15" dur="5.4s" begin=".3s" repeatCount="indefinite"/></circle>
+      <circle cx="70"  cy="38"  r="1.2"><animate attributeName="opacity" values=".2;.95;.2" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="64"  r="1"  ><animate attributeName="opacity" values=".15;.7;.15" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="345" cy="30"  r="1.3"><animate attributeName="opacity" values=".3;1;.3"   dur="3s"   begin=".5s" repeatCount="indefinite"/></circle>
+      <circle cx="500" cy="56"  r="1"  ><animate attributeName="opacity" values=".2;.75;.2" dur="5s"   begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="140" cy="98"  r="1"  ><animate attributeName="opacity" values=".1;.6;.1"   dur="4.6s" begin=".8s" repeatCount="indefinite"/></circle>
+      <circle cx="420" cy="104" r="1"  ><animate attributeName="opacity" values=".2;.7;.2"   dur="3.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="610" cy="36"  r="1.1"><animate attributeName="opacity" values=".25;.85;.25" dur="4s"  begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="270" cy="120" r="0.9"><animate attributeName="opacity" values=".15;.6;.15" dur="5.2s" begin=".2s" repeatCount="indefinite"/></circle>
+      <circle cx="55"  cy="150" r="0.9"><animate attributeName="opacity" values=".15;.55;.15" dur="4.4s" begin="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="150" r="1" ><animate attributeName="opacity" values=".15;.6;.15" dur="5.4s" begin=".3s" repeatCount="indefinite"/></circle>
+      <circle cx="1075" cy="46" r="1.1"><animate attributeName="opacity" values=".2;.8;.2"  dur="3.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="70"  r="0.9"><animate attributeName="opacity" values=".15;.6;.15" dur="4.8s" begin="2.7s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- shooting star -->
+    <g stroke="#fff2d6" stroke-width="1.6" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="0;0.55;0.62;0.72;1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -160 70" keyTimes="0;1" dur="12s" repeatCount="indefinite"/>
+      <line x1="640" y1="30" x2="690" y2="8"/>
     </g>
 
-    <!-- moon (glow pulse) -->
-    <circle cx="980" cy="96" r="130" fill="url(#glow)"><animate attributeName="opacity" values=".78;1;.78" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="980" cy="96" r="50" fill="#ffe9c6"/>
-    <g fill="#e9c79a" opacity=".5"><circle cx="966" cy="84" r="9"/><circle cx="998" cy="104" r="7"/><circle cx="972" cy="112" r="5"/></g>
+    <!-- moon: halo, rings, face, craters -->
+    <circle cx="980" cy="92" r="140" fill="url(#glow)"><animate attributeName="opacity" values=".8;1;.8" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="92" r="70" fill="none" stroke="#ffe9c2" stroke-width="0.8" opacity="0.12"/>
+    <circle cx="980" cy="92" r="88" fill="none" stroke="#ffe9c2" stroke-width="0.6" opacity="0.07"/>
+    <circle cx="980" cy="92" r="52" fill="url(#moonface)"/>
+    <g fill="#e4c087" opacity=".45"><circle cx="963" cy="78" r="9"/><circle cx="1000" cy="102" r="7"/><circle cx="972" cy="110" r="5"/><circle cx="994" cy="72" r="4"/></g>
 
-    <!-- birds (slow drift across) -->
+    <!-- drifting cloud wisps across the moon -->
+    <g fill="#2a1730" opacity="0.5" filter="url(#wisp)">
+      <g><animateTransform attributeName="transform" type="translate" values="-40 0; 60 0; -40 0" dur="26s" repeatCount="indefinite"/>
+        <ellipse cx="960" cy="120" rx="120" ry="10"/></g>
+      <g><animateTransform attributeName="transform" type="translate" values="50 0; -50 0; 50 0" dur="34s" begin="3s" repeatCount="indefinite"/>
+        <ellipse cx="1010" cy="70" rx="90" ry="7"/></g>
+    </g>
+
+    <!-- birds drifting -->
     <g stroke="#0e0812" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".8">
       <animateTransform attributeName="transform" type="translate" values="40 6; -30 -10; -110 -2; 40 6" keyTimes="0;0.45;0.9;1" dur="22s" repeatCount="indefinite"/>
       <path d="M812 78 q 8 -7 16 0 q 8 -7 16 0"/>
@@ -54,46 +97,100 @@
       <path d="M790 108 q 5 -4 10 0 q 5 -4 10 0"/>
     </g>
 
-    <!-- mountain layers (far → near) -->
-    <path d="M0 196 Q 220 150 430 190 T 830 182 T 1200 196 V236 H0 Z" fill="url(#m3)"/>
-    <path d="M0 216 Q 300 168 560 210 T 1000 206 T 1200 214 V244 H0 Z" fill="url(#m2)"/>
+    <!-- mountain layers (atmospheric perspective, far -> near) -->
+    <path d="M0 178 Q 200 138 410 172 T 800 166 Q 1000 150 1200 176 V210 H0 Z" fill="url(#m4)" opacity="0.9"/>
+    <rect x="0" y="172" width="1200" height="34" fill="url(#mistg)"/>
+    <path d="M0 200 Q 240 156 470 196 T 860 190 T 1200 202 V236 H0 Z" fill="url(#m3)"/>
+    <path d="M0 220 Q 300 176 560 214 T 1000 210 T 1200 218 V250 H0 Z" fill="url(#m2)"/>
+    <!-- mist band -->
+    <rect x="0" y="196" width="1200" height="52" fill="url(#mistg)"/>
+    <!-- drifting low mist -->
+    <g fill="#dcc4d2" opacity="0.14" filter="url(#wisp)">
+      <g><animateTransform attributeName="transform" type="translate" values="-60 0; 40 0; -60 0" dur="30s" repeatCount="indefinite"/>
+        <ellipse cx="330" cy="222" rx="220" ry="12"/></g>
+      <g><animateTransform attributeName="transform" type="translate" values="50 0; -40 0; 50 0" dur="38s" begin="4s" repeatCount="indefinite"/>
+        <ellipse cx="820" cy="230" rx="240" ry="11"/></g>
+    </g>
 
-    <!-- mist between layers -->
-    <rect x="0" y="196" width="1200" height="44" fill="url(#mistg)"/>
+    <!-- near ridge + pine forest -->
+    <path d="M0 244 Q 260 218 520 242 T 980 238 T 1200 244 V268 H0 Z" fill="url(#m1)"/>
+    <g fill="#0b0610">
+      <g transform="translate(90,240) scale(.85)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -22 L15 3 H-15 Z"/><path d="M0 -9 L19 14 H-19 Z"/></g>
+      <g transform="translate(150,240)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -24 L16 3 H-16 Z"/><path d="M0 -9 L20 14 H-20 Z"/></g>
+      <g transform="translate(330,244) scale(.78)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -22 L15 3 H-15 Z"/><path d="M0 -9 L19 14 H-19 Z"/></g>
+      <g transform="translate(560,242) scale(.7)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -22 L15 3 H-15 Z"/><path d="M0 -9 L19 14 H-19 Z"/></g>
+      <g transform="translate(700,240) scale(.92)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -24 L16 3 H-16 Z"/><path d="M0 -9 L20 14 H-20 Z"/></g>
+      <g transform="translate(1090,242) scale(.8)"><rect x="-2.5" y="0" width="5" height="20"/><path d="M0 -22 L15 3 H-15 Z"/><path d="M0 -9 L19 14 H-19 Z"/></g>
+    </g>
 
-    <!-- near ridge with pines on it -->
-    <path d="M0 240 Q 260 214 520 238 T 980 234 T 1200 240 V262 H0 Z" fill="url(#m1)"/>
-    <g fill="#0d0712">
-      <g transform="translate(120,236)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
-      <g transform="translate(300,240) scale(.8)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
-      <g transform="translate(690,236) scale(.9)"><rect x="-2.5" y="0" width="5" height="18"/><path d="M0 -20 L14 2 H-14 Z"/><path d="M0 -8 L18 12 H-18 Z"/></g>
+    <!-- fireflies -->
+    <g>
+      <g transform="translate(430,250)"><circle r="6" fill="url(#fire)"><animate attributeName="opacity" values=".2;1;.2" dur="4s" repeatCount="indefinite"/></circle>
+        <animateTransform attributeName="transform" type="translate" values="430 250; 445 240; 430 250" dur="9s" repeatCount="indefinite"/></g>
+      <g transform="translate(620,256)"><circle r="5" fill="url(#fire)"><animate attributeName="opacity" values=".15;.9;.15" dur="5s" begin="1s" repeatCount="indefinite"/></circle>
+        <animateTransform attributeName="transform" type="translate" values="620 256; 606 246; 620 256" dur="11s" begin="1s" repeatCount="indefinite"/></g>
+      <g transform="translate(120,254)"><circle r="5" fill="url(#fire)"><animate attributeName="opacity" values=".15;.85;.15" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+        <animateTransform attributeName="transform" type="translate" values="120 254; 132 244; 120 254" dur="10s" begin="2s" repeatCount="indefinite"/></g>
     </g>
 
     <!-- water -->
     <rect x="0" y="262" width="1200" height="78" fill="url(#water)"/>
-    <!-- moon reflection on water -->
-    <rect x="965" y="262" width="30" height="70" fill="url(#moonref)"/>
-    <g stroke="#e9c79a" stroke-width="1.5" opacity=".35"><animate attributeName="opacity" values=".18;.5;.18" dur="4s" repeatCount="indefinite"/><line x1="958" y1="278" x2="1002" y2="278"/><line x1="963" y1="296" x2="997" y2="296"/><line x1="968" y1="312" x2="992" y2="312"/></g>
+    <!-- moon reflection column -->
+    <rect x="960" y="262" width="40" height="76" fill="url(#moonref)"/>
+    <g stroke="#f0d29c" stroke-width="1.6" opacity=".4"><animate attributeName="opacity" values=".2;.55;.2" dur="4s" repeatCount="indefinite"/>
+      <line x1="956" y1="276" x2="1004" y2="276"/><line x1="962" y1="294" x2="998" y2="294"/><line x1="967" y1="312" x2="993" y2="312"/><line x1="971" y1="328" x2="989" y2="328"/></g>
     <!-- water ripples -->
-    <g stroke="#5a3350" stroke-width="1" opacity=".4"><animate attributeName="opacity" values=".2;.55;.2" dur="5.5s" begin="1s" repeatCount="indefinite"/><line x1="60" y1="290" x2="180" y2="290"/><line x1="380" y1="306" x2="520" y2="306"/><line x1="640" y1="284" x2="760" y2="284"/></g>
+    <g stroke="#5a3350" stroke-width="1" opacity=".4"><animate attributeName="opacity" values=".2;.55;.2" dur="5.5s" begin="1s" repeatCount="indefinite"/>
+      <line x1="60" y1="288" x2="190" y2="288"/><line x1="360" y1="306" x2="520" y2="306"/><line x1="640" y1="282" x2="770" y2="282"/><line x1="200" y1="322" x2="330" y2="322"/></g>
+    <!-- moving light streak on water -->
+    <g opacity="0.25"><animateTransform attributeName="transform" type="translate" values="-400 0; 1200 0" dur="14s" repeatCount="indefinite"/>
+      <rect x="0" y="284" width="180" height="2" fill="#e7cdd8" opacity="0.5"/></g>
 
-    <!-- torii standing in the water — the colour accent -->
+    <!-- torii standing in the water -->
     <g transform="translate(250,150)">
       <path d="M-80 4 q 80 -22 160 0 l -8 16 q -72 -18 -144 0 Z" fill="#e0455c"/>
       <rect x="-66" y="30" width="132" height="11" rx="2" fill="#c9384f"/>
-      <rect x="-50" y="4" width="14" height="108" rx="2" fill="#d9455f"/>
-      <rect x="36" y="4" width="14" height="108" rx="2" fill="#d9455f"/>
-      <rect x="-8" y="41" width="16" height="26" fill="#b83048"/>
+      <rect x="-50" y="4"  width="14" height="112" rx="2" fill="#d9455f"/>
+      <rect x="36"  y="4"  width="14" height="112" rx="2" fill="#d9455f"/>
+      <rect x="-8"  y="41" width="16" height="26" fill="#b83048"/>
     </g>
     <!-- torii reflection -->
-    <g transform="translate(250,262)" opacity=".28">
-      <rect x="-50" y="0" width="14" height="50" rx="2" fill="#d9455f"/>
-      <rect x="36" y="0" width="14" height="50" rx="2" fill="#d9455f"/>
+    <g transform="translate(250,266)" opacity=".26">
+      <rect x="-50" y="0" width="14" height="52" rx="2" fill="#d9455f"/>
+      <rect x="36"  y="0" width="14" height="52" rx="2" fill="#d9455f"/>
+      <animate attributeName="opacity" values=".16;.32;.16" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- falling sakura petals -->
+    <g>
+      <g transform="translate(170,40)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 22,110; -8,220; 14,300" dur="15s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.85"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(360,20)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -18,120; 10,240; -6,320" dur="18s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.75"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(520,60)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 16,100; -10,210; 8,290" dur="16s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.5s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(690,30)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -14,130; 12,250; -8,330" dur="20s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.7"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(90,110)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 20,90; -6,180; 12,250" dur="14s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.65"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6.5s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(440,90)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; -16,110; 8,220; -10,300" dur="17s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.72"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7.5s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(300,130)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0,0; 14,95; -8,190; 10,260" dur="15.5s" repeatCount="indefinite"/>
+        <use href="#petal" xlink:href="#petal" fill="url(#petg)" opacity="0.6"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></use></g>
     </g>
 
     <!-- title -->
-    <text x="600" y="150" text-anchor="middle" font-size="54" font-weight="700" fill="#f6ebf0" letter-spacing="1.5">North-web-dev</text>
+    <text x="600" y="150" text-anchor="middle" font-size="54" font-weight="700" fill="#f5a9c1" opacity="0.55" filter="url(#soft)" letter-spacing="1.5">North-web-dev</text>
+    <text x="600" y="150" text-anchor="middle" font-size="54" font-weight="700" fill="url(#titleg)" letter-spacing="1.5">North-web-dev</text>
     <text x="600" y="182" text-anchor="middle" font-size="14.5" font-weight="600" fill="#f5a9c1" letter-spacing="6">&#21271;&#12288;K I T A&#12288;&#183;&#12288;N O R T H</text>
     <text x="600" y="207" text-anchor="middle" font-size="13" fill="#d3bcc8" letter-spacing="1.5" opacity=".92">reverse engineering the wire &#183; byte-exact, or detectable</text>
+    <!-- gold divider accent -->
+    <g opacity="0.85"><line x1="538" y1="224" x2="586" y2="224" stroke="#e6a23c" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M600 219 l5 5 l-5 5 l-5 -5 Z" fill="#e6a23c"/>
+      <line x1="614" y1="224" x2="662" y2="224" stroke="#e6a23c" stroke-width="1.4" stroke-linecap="round"/></g>
+
+    <!-- vignette -->
+    <rect width="1200" height="340" fill="url(#vig)"/>
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="16" fill="none" stroke="#3a1c33" stroke-width="1" opacity="0.7"/>
   </g>
 </svg>
