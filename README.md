@@ -4,23 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=800&color=F5A9C1&center=true&vCenter=true&width=600&lines=byte-exact%2C+or+it+doesn't+count;TLS+%2F+JA3-JA4+fingerprinting;HTTP%2F2+impersonation+%26+anti-detect;protocol+reverse+engineering"/>
 
-</div>
-
-<div align="center">
-
-```
-                     🌸
-                 ,@@@@@@@,
-         ,,,.   ,@@@@@@/@@,  .oo8888o.
-      ,&%%&%&&%,@@@@@/@@@@@@,8888\88/8o
-     ,%&\%&&%&&%,@@@\@@@/@@@88\88888/88'
-     %&&%&%&/%&&%@@\@@/ /@@@88888\88888'
-     %&&%/ %&%%&&@@\ V /@@' `88\8 `/88'      「 極めて正確に 」
-     `&%\ ` /%&'    |.|        \ '|8'       byte-exact, or detectable
-         |o|        | |         | |
-         |.|        | |         | |
-      \\/ ._\//_/__/  ,\_//__\\/.  \_//__/_
-```
+<samp>⛩ &nbsp; 北 &nbsp;·&nbsp; reverse engineering the wire &nbsp;·&nbsp; 北 &nbsp; ⛩</samp>
 
 </div>
 
@@ -69,10 +53,9 @@ var Me = Dev{
 
 ### 📊 &nbsp;stats
 
-<img height="172" src="https://github-readme-stats-sigma-five.vercel.app/api?username=North-web-dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6&ring_color=d9455f"/>
-<img height="172" src="https://streak-stats.demolab.com?user=North-web-dev&hide_border=true&background=1A1622&ring=d9455f&fire=e6b422&currStreakLabel=f5a9c1&sideLabels=eae0e6&currStreakNum=eae0e6&sideNums=eae0e6&dates=8a7580"/>
-
-<img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=North-web-dev&layout=compact&hide_border=true&langs_count=8&bg_color=1a1622&title_color=f5a9c1&text_color=eae0e6"/>
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=North-web-dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6&ring_color=d9455f"/>
+&nbsp;
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=North-web-dev&layout=compact&hide_border=true&langs_count=8&bg_color=1a1622&title_color=f5a9c1&text_color=eae0e6"/>
 
 </div>
 
@@ -84,12 +67,18 @@ var Me = Dev{
 
 ### 🌳 &nbsp;pinned
 
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=North-web-dev&repo=impersonate-http&hide_border=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6"/></a>
-<a href="https://github.com/North-web-dev/fingerprint-db"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=North-web-dev&repo=fingerprint-db&hide_border=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6"/></a>
+<a href="https://github.com/North-web-dev/impersonate-http">
+  <img src="https://img.shields.io/badge/impersonate--http-Go%20·%20byte--exact%20TLS%20%2B%20HTTP%2F2-1a1622?style=for-the-badge&logo=go&logoColor=f5a9c1&labelColor=6d2b45"/>
+</a>
+&nbsp;<img src="https://img.shields.io/badge/★_in_awesome--go-e6b422?style=for-the-badge&labelColor=3a2230"/>
 
-<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=North-web-dev&repo=tdata-extract&hide_border=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6"/></a>
+<a href="https://github.com/North-web-dev/fingerprint-db">
+  <img src="https://img.shields.io/badge/fingerprint--db-Go%20·%20JA3%2FJA4%20%2B%20h2%20fingerprints-1a1622?style=for-the-badge&logo=go&logoColor=e6b422&labelColor=6d2b45"/>
+</a>
 
-<sub><b>impersonate-http</b> — Go · byte-exact browser TLS + HTTP/2 · in <b>awesome-go</b></sub>
+<a href="https://github.com/North-web-dev/tdata-extract">
+  <img src="https://img.shields.io/badge/tdata--extract-Python%20·%20Telegram%20tdata%20toolkit-1a1622?style=for-the-badge&logo=python&logoColor=f5a9c1&labelColor=6d2b45"/>
+</a>
 
 </div>
 
@@ -105,12 +94,13 @@ var Me = Dev{
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake-dark.svg"/>
-  <img alt="snake" width="92%" src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake.svg"/>
+  <img alt="contribution snake" width="92%" src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake.svg"/>
 </picture>
 
-<br/>
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=North-web-dev&label=visitors&color=d9455f&style=flat-square"/>
+&nbsp;
 <img src="https://img.shields.io/github/followers/North-web-dev?label=followers&style=flat-square&color=e6b422&logo=github"/>
 
 </div>
