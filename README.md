@@ -13,8 +13,6 @@
 <a href="https://github.com/avelino/awesome-go#security"><img src="https://img.shields.io/badge/awesome--go-featured-e6a23c?style=flat-square&logo=go&logoColor=white&labelColor=160f1c" alt="Featured in awesome-go"/></a>
 &nbsp;
 <a href="https://github.com/North-web-dev?tab=followers"><img src="https://img.shields.io/github/followers/North-web-dev?style=flat-square&logo=github&logoColor=f5a9c1&color=d9455f&labelColor=160f1c&label=followers" alt="followers"/></a>
-&nbsp;
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/github/stars/North-web-dev/impersonate-http?style=flat-square&logo=github&color=e6a23c&labelColor=160f1c&label=%E2%98%85%20impersonate-http" alt="impersonate-http stars"/></a>
 
 </div>
 
@@ -31,7 +29,6 @@ var Me = Dev{
     Way:   "reverse engineer · quiet automation",
     Langs: []string{"Go", "Python", "C#/.NET"},
     Wire:  []string{"JA3/JA4", "HTTP/2 frames", "TLS ClientHello", "Akamai h2"},
-    Kit:   []string{"curl_cffi", "Playwright", "mitmproxy", "PyTorch"},
     Rule:  "if it isn't byte-exact, it's detectable",
 }
 ```
@@ -46,7 +43,7 @@ var Me = Dev{
 
 <img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/stack.svg" width="660" alt="Go · Python · C#/.NET · curl_cffi · HTTP/2 · TLS·JA3 · Playwright · PyTorch"/>
 
-<br/><br/><br/>
+<br/><br/>
 
 <img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-work.svg" width="430" alt="作品 work"/>
 
@@ -62,7 +59,7 @@ var Me = Dev{
 
 <a href="https://github.com/North-web-dev/tdata-extract"><img src="https://svg.bookmark.style/api?url=https://github.com/North-web-dev/tdata-extract&mode=dark&style=horizontal" width="680" alt="tdata-extract — offline Telegram Desktop tdata auth-key & DC extractor"/></a>
 
-<br/><br/><br/>
+<br/><br/>
 
 <img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stats.svg" width="430" alt="記録 stats"/>
 
@@ -70,14 +67,6 @@ var Me = Dev{
 
 <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=North-web-dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=160f1c&title_color=f5a9c1&icon_color=e6a23c&text_color=cbb2c0&ring_color=d9455f" alt="North-web-dev GitHub stats"/>
 <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=North-web-dev&layout=compact&hide_border=true&langs_count=8&bg_color=160f1c&title_color=f5a9c1&text_color=cbb2c0" alt="Top languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=North-web-dev&hide_border=true&background=160f1c&stroke=6d2b45&ring=d9455f&fire=e6a23c&currStreakNum=f5a9c1&currStreakLabel=e6a23c&sideNums=cbb2c0&sideLabels=cbb2c0&dates=8a7480&excludeDaysLabel=8a7480" alt="contribution streak" width="500"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=North-web-dev&bg_color=160f1c&color=f5a9c1&line=d9455f&point=e6a23c&area_color=d9455f&title_color=f5a9c1&area=true&hide_border=true&custom_title=Contribution%20Graph" width="100%" alt="contribution graph"/>
 
 <br/><br/>
 
