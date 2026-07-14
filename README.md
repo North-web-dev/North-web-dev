@@ -19,7 +19,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-whoami.svg" width="430" alt="誰 whoami"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-whoami.svg" width="100%" alt="誰 whoami"/>
 </div>
 
 ```go
@@ -37,7 +37,7 @@ var Me = Dev{
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stack.svg" width="430" alt="道具 stack"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stack.svg" width="100%" alt="道具 stack"/>
 
 <br/><br/>
 
@@ -45,7 +45,7 @@ var Me = Dev{
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-work.svg" width="430" alt="作品 work"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-work.svg" width="100%" alt="作品 work"/>
 
 <br/><br/>
 
@@ -61,7 +61,7 @@ var Me = Dev{
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stats.svg" width="430" alt="記録 stats"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stats.svg" width="100%" alt="記録 stats"/>
 
 <br/><br/>
 

@@ -1,17 +1,35 @@
-<svg width="430" height="56" viewBox="0 0 430 56" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
   <defs>
-    <linearGradient id="p" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1c1024"/><stop offset="1" stop-color="#160d18"/>
+    <linearGradient id="bghstack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#130a16"/><stop offset="0.5" stop-color="#221232"/><stop offset="1" stop-color="#130a16"/>
     </linearGradient>
-    <linearGradient id="k" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d9455f"/><stop offset="1" stop-color="#a5304a"/>
-    </linearGradient>
+    <radialGradient id="glowhstack" cx="14%" cy="50%" r="34%">
+      <stop offset="0" stop-color="#d9455f" stop-opacity="0.30"/><stop offset="100%" stop-color="#d9455f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="khstack" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0455c"/><stop offset="1" stop-color="#a5304a"/></linearGradient>
+    <clipPath id="cphstack"><rect width="1200" height="120" rx="18"/></clipPath>
   </defs>
-  <rect x="1" y="8" width="428" height="40" rx="10" fill="url(#p)" stroke="#3a1c33" stroke-width="1"/>
-  <rect x="1" y="8" width="5" height="40" rx="2.5" fill="#d9455f"/>
-  <rect x="18" y="14" width="28" height="28" rx="7" fill="url(#k)"/>
-  <text x="32" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#fdeff3">道具</text>
-  <text x="60" y="34" font-size="18" font-weight="700" letter-spacing="3.5" fill="#f2d9e2">stack</text>
-  <g fill="#e6a23c" opacity="0.85"><circle cx="404" cy="20" r="2.3"/><circle cx="404" cy="28" r="2.3" opacity="0.55"/><circle cx="404" cy="36" r="2.3" opacity="0.3"/></g>
-  <g fill="#f5a9c1" opacity="0.5"><path d="M392 24 q3 -5 6 0 q-3 2 -6 0Z"/></g>
+  <g clip-path="url(#cphstack)">
+    <rect width="1200" height="120" fill="url(#bghstack)"/>
+    <ellipse cx="170" cy="60" rx="360" ry="90" fill="url(#glowhstack)"><animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/></ellipse>
+    <!-- huge faint kanji watermark right -->
+    <text x="1120" y="112" text-anchor="end" font-size="150" font-weight="700" fill="#f5a9c1" opacity="0.05">道具</text>
+    <!-- thin horizon line echoing the banner water -->
+    <line x1="560" y1="92" x2="1160" y2="92" stroke="#5a3350" stroke-width="1" opacity="0.5"/>
+    <g stroke="#e9c79a" stroke-width="1" opacity="0.3"><line x1="980" y1="104" x2="1120" y2="104"/></g>
+    <!-- left beni accent edge -->
+    <rect x="0" y="0" width="7" height="120" fill="#d9455f"/>
+    <!-- kanji block -->
+    <rect x="42" y="30" width="60" height="60" rx="14" fill="url(#khstack)" stroke="#e9c79a" stroke-opacity="0.5"/>
+    <text x="72" y="72" text-anchor="middle" font-size="30" font-weight="700" fill="#fdeff3">道具</text>
+    <!-- latin label + romaji -->
+    <text x="128" y="62" font-size="40" font-weight="700" letter-spacing="6" fill="#f6ebf0">stack</text>
+    <text x="130" y="90" font-size="14" font-weight="600" letter-spacing="4" fill="#f5a9c1" opacity="0.85">どうぐ · TOOLS</text>
+    <!-- gold dots + sakura petals accent (drifting) -->
+    <g fill="#e6a23c"><circle cx="1150" cy="30" r="3"/><circle cx="1168" cy="46" r="2"/><circle cx="1140" cy="52" r="2"/></g>
+    <g fill="#f5a9c1" opacity="0.85">
+      <g><animateTransform attributeName="transform" type="translate" values="0 0; -14 10; 0 0" dur="9s" repeatCount="indefinite"/>
+        <path d="M760 34 q6 -7 12 0 q-6 4 -12 0Z"/><path d="M850 60 q6 -7 12 0 q-6 4 -12 0Z"/><path d="M690 74 q5 -6 10 0 q-5 3 -10 0Z"/></g>
+    </g>
+  </g>
 </svg>
