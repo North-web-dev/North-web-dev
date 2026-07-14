@@ -1,18 +1,28 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1622,40:6d2b45,75:d9455f,100:e6b422&height=170&section=header&text=North-web-dev&fontColor=ffe9f0&fontSize=46&fontAlignY=52&desc=%E5%8C%97%20kita%20%C2%B7%20north&descAlignY=76&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1622,35:6d2b45,70:d9455f,100:e6b422&height=200&section=header&text=North-web-dev&fontColor=ffe9f0&fontSize=48&fontAlignY=38&desc=%E5%8C%97%20%E3%83%BB%20kita%20%E3%83%BB%20north%20%E3%83%BB%20reverse%20engineering%20the%20wire&descAlignY=60&descSize=16"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=800&color=F5A9C1&center=true&vCenter=true&width=600&lines=byte-exact%2C+or+it+doesn't+count;TLS+%2F+JA3-JA4+fingerprinting;HTTP%2F2+impersonation+%26+anti-detect;protocol+reverse+engineering"/>
+<samp>🌅 &nbsp; 🗻 &nbsp; ⛩️ &nbsp; 🌲 &nbsp; 🏯 &nbsp; 🌸 &nbsp; 🏮 &nbsp; 🎋 &nbsp; 🏠 &nbsp; 🌲 &nbsp; ⛩️ &nbsp; 🗻</samp>
 
-<samp>⛩ &nbsp; 北 &nbsp;·&nbsp; reverse engineering the wire &nbsp;·&nbsp; 北 &nbsp; ⛩</samp>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=800&color=F5A9C1&center=true&vCenter=true&width=620&lines=byte-exact%2C+or+it+doesn't+count;TLS+%2F+JA3-JA4+fingerprinting;HTTP%2F2+impersonation+%26+anti-detect;quiet+automation+%C2%B7+protocol+RE"/>
 
 </div>
 
-<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌳 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
+<div align="center">
+
+<samp>🌌　　　🌕　　　　　　　🌸　　　　　　　🌕　　　🌌</samp>
+
+<samp>🗻　　🌲🌲　⛩️　🏯　🌲🎋🌲　🏠　🌲🌲　⛩️　🏮　🌲🌲　🗻</samp>
+
+<samp>▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔</samp>
+
+</div>
+
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ ⛩️ ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
 
 <br/>
 
-### 🍶 &nbsp;whoami
+### 🍶 &nbsp;whoami &nbsp;·&nbsp; 誰
 
 ```go
 package north  // 北
@@ -26,13 +36,13 @@ var Me = Dev{
 }
 ```
 
-<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌳 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🎋 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
 
 <br/>
 
 <div align="center">
 
-### ⛩ &nbsp;stack
+### ⛩️ &nbsp;stack &nbsp;·&nbsp; 道具
 
 ![Go](https://img.shields.io/badge/Go-3a2230?style=for-the-badge&logo=go&logoColor=f5a9c1)
 ![Python](https://img.shields.io/badge/Python-3a2230?style=for-the-badge&logo=python&logoColor=e6b422)
@@ -45,13 +55,13 @@ var Me = Dev{
 
 </div>
 
-<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌳 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🏯 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
 
 <br/>
 
 <div align="center">
 
-### 📊 &nbsp;stats
+### 📊 &nbsp;stats &nbsp;·&nbsp; 記録
 
 <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=North-web-dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1622&title_color=f5a9c1&icon_color=e6b422&text_color=eae0e6&ring_color=d9455f"/>
 &nbsp;
@@ -59,36 +69,37 @@ var Me = Dev{
 
 </div>
 
-<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌳 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌲 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
 
 <br/>
 
 <div align="center">
 
-### 🌳 &nbsp;pinned
+### 🌳 &nbsp;pinned &nbsp;·&nbsp; 作品
 
 <a href="https://github.com/North-web-dev/impersonate-http">
-  <img src="https://img.shields.io/badge/impersonate--http-Go%20·%20byte--exact%20TLS%20%2B%20HTTP%2F2-1a1622?style=for-the-badge&logo=go&logoColor=f5a9c1&labelColor=6d2b45"/>
+  <img src="https://img.shields.io/badge/impersonate--http-Go_byte--exact_TLS_HTTP2-1a1622?style=for-the-badge&logo=go&logoColor=f5a9c1&labelColor=6d2b45"/>
 </a>
-&nbsp;<img src="https://img.shields.io/badge/★_in_awesome--go-e6b422?style=for-the-badge&labelColor=3a2230"/>
+&nbsp;
+<img src="https://img.shields.io/badge/featured_in-awesome--go-e6b422?style=for-the-badge&labelColor=3a2230"/>
 
 <a href="https://github.com/North-web-dev/fingerprint-db">
-  <img src="https://img.shields.io/badge/fingerprint--db-Go%20·%20JA3%2FJA4%20%2B%20h2%20fingerprints-1a1622?style=for-the-badge&logo=go&logoColor=e6b422&labelColor=6d2b45"/>
+  <img src="https://img.shields.io/badge/fingerprint--db-Go_JA3--JA4_h2_fingerprints-1a1622?style=for-the-badge&logo=go&logoColor=e6b422&labelColor=6d2b45"/>
 </a>
 
 <a href="https://github.com/North-web-dev/tdata-extract">
-  <img src="https://img.shields.io/badge/tdata--extract-Python%20·%20Telegram%20tdata%20toolkit-1a1622?style=for-the-badge&logo=python&logoColor=f5a9c1&labelColor=6d2b45"/>
+  <img src="https://img.shields.io/badge/tdata--extract-Python_Telegram_tdata_toolkit-1a1622?style=for-the-badge&logo=python&logoColor=f5a9c1&labelColor=6d2b45"/>
 </a>
 
 </div>
 
-<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🌳 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🏮 ୨୧ ⋆｡˚ ⋆ 🌸</samp></div>
 
 <br/>
 
 <div align="center">
 
-### 🍂 &nbsp;activity
+### 🍂 &nbsp;activity &nbsp;·&nbsp; 軌跡
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=North-web-dev&hide_border=true&radius=16&bg_color=1a1622&color=f5a9c1&line=e6b422&point=eae0e6&area=true&area_color=3a2230"/>
 
@@ -105,4 +116,6 @@ var Me = Dev{
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:e6b422,25:d9455f,60:6d2b45,100:1a1622&height=90&section=footer"/>
+<div align="center"><samp>🌸 ⋆ ˚｡⋆ ୨୧ 🗻 ୨୧ ⋆｡˚ ⋆ 🌸 &nbsp;&nbsp; <sub>「 極めて正確に · byte-exact, or detectable 」</sub></samp></div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e6b422,30:d9455f,65:6d2b45,100:1a1622&height=120&section=footer"/>
