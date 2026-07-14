@@ -6,6 +6,16 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=D9455F&center=true&vCenter=true&width=560&lines=TLS+%2F+JA3-JA4+fingerprinting;HTTP%2F2+impersonation+%26+anti-detect;quiet+automation+%C2%B7+protocol+RE" alt="TLS/JA3 fingerprinting · HTTP/2 impersonation · quiet automation"/>
 
+<br/><br/>
+
+<a href="https://github.com/North-web-dev"><img src="https://img.shields.io/badge/GitHub-North--web--dev-d9455f?style=flat-square&logo=github&logoColor=white&labelColor=160f1c" alt="GitHub · North-web-dev"/></a>
+&nbsp;
+<a href="https://github.com/avelino/awesome-go#security"><img src="https://img.shields.io/badge/awesome--go-featured-e6a23c?style=flat-square&logo=go&logoColor=white&labelColor=160f1c" alt="Featured in awesome-go"/></a>
+&nbsp;
+<a href="https://github.com/North-web-dev?tab=followers"><img src="https://img.shields.io/github/followers/North-web-dev?style=flat-square&logo=github&logoColor=f5a9c1&color=d9455f&labelColor=160f1c&label=followers" alt="followers"/></a>
+&nbsp;
+<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/github/stars/North-web-dev/impersonate-http?style=flat-square&logo=github&color=e6a23c&labelColor=160f1c&label=%E2%98%85%20impersonate-http" alt="impersonate-http stars"/></a>
+
 </div>
 
 <br/>
@@ -42,7 +52,15 @@ var Me = Dev{
 
 <br/><br/>
 
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/work.svg" width="660" alt="impersonate-http · fingerprint-db · tdata-extract"/></a>
+<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://svg.bookmark.style/api?url=https://github.com/North-web-dev/impersonate-http&mode=dark&style=horizontal" width="680" alt="impersonate-http — byte-exact browser TLS/JA3 & HTTP/2 impersonation for net/http"/></a>
+
+<br/>
+
+<a href="https://github.com/North-web-dev/fingerprint-db"><img src="https://svg.bookmark.style/api?url=https://github.com/North-web-dev/fingerprint-db&mode=dark&style=horizontal" width="680" alt="fingerprint-db — measured browser TLS/JA3/JA4 + HTTP/2 fingerprints as JSON"/></a>
+
+<br/>
+
+<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://svg.bookmark.style/api?url=https://github.com/North-web-dev/tdata-extract&mode=dark&style=horizontal" width="680" alt="tdata-extract — offline Telegram Desktop tdata auth-key & DC extractor"/></a>
 
 <br/><br/><br/>
 
@@ -55,6 +73,14 @@ var Me = Dev{
 
 <br/><br/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=North-web-dev&hide_border=true&background=160f1c&stroke=6d2b45&ring=d9455f&fire=e6a23c&currStreakNum=f5a9c1&currStreakLabel=e6a23c&sideNums=cbb2c0&sideLabels=cbb2c0&dates=8a7480&excludeDaysLabel=8a7480" alt="contribution streak" width="500"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=North-web-dev&bg_color=160f1c&color=f5a9c1&line=d9455f&point=e6a23c&area_color=d9455f&title_color=f5a9c1&area=true&hide_border=true&custom_title=Contribution%20Graph" width="100%" alt="contribution graph"/>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake-dark.svg"/>
   <img alt="contribution snake" width="100%" src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake.svg"/>
@@ -63,8 +89,6 @@ var Me = Dev{
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=North-web-dev&label=visitors&color=6d2b45&style=flat-square" alt="visitor count"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/North-web-dev?style=flat-square&color=e6a23c&logo=github&labelColor=160f1c" alt="followers"/>
 
 <br/><br/>
 
