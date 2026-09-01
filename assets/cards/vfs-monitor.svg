@@ -1,0 +1,47 @@
+<svg width="560" height="148" viewBox="0 0 560 148" fill="none"
+     xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="vfs-monitor — Cluster-aware monitor for VFS Global appointment slots — account pool, captcha/CF handling, Telegram alerts (educational/research)."
+     font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+  <defs>
+    <linearGradient id="bgvfsmonitor" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#1c1026"/>
+      <stop offset="1" stop-color="#130a18"/>
+    </linearGradient>
+    <radialGradient id="glowvfsmonitor" cx="4%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#d9455f" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#d9455f" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clipvfsmonitor"><rect width="560" height="148" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clipvfsmonitor)">
+    <rect width="560" height="148" rx="14" fill="url(#bgvfsmonitor)"/>
+    <rect width="560" height="148" fill="url(#glowvfsmonitor)"/>
+    <!-- beni edge, the same one the section plates carry -->
+    <rect width="5" height="148" fill="#d9455f"/>
+    <!-- faint horizon line, echoing the banner -->
+    <path d="M0 102 H560" stroke="#3a1c33" stroke-width="1" opacity="0.7"/>
+    <g fill="#e6a23c" opacity="0.5">
+      <circle cx="540" cy="18" r="2"/>
+      <circle cx="528" cy="28" r="1.4"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="559" height="147" rx="14" fill="none" stroke="#3a1c33"/>
+
+  <text x="26" y="42" font-size="20" font-weight="700" fill="#f6ebf0">vfs-monitor</text>
+
+  <g font-size="13" fill="#c7abbb">
+    <text x="26" y="70">Cluster-aware monitor for VFS Global appointment slots — account pool,</text>
+    <text x="26" y="90">captcha/CF handling, Telegram alerts (educational/research).</text>
+  </g>
+
+  <g font-size="12.5" font-weight="600">
+    <circle cx="31" cy="118" r="5" fill="#3572A5"/>
+    <text x="44" y="122" fill="#c7abbb">Python</text>
+    <g transform="translate(102.4, 111)">
+      <path d="M7 0.6 8.9 4.6 13.3 5.2 10.1 8.3 10.9 12.7 7 10.6 3.1 12.7 3.9 8.3 0.7 5.2 5.1 4.6Z"
+            fill="#e6a23c" opacity="0.9"/>
+      <text x="20" y="11" fill="#c7abbb">5</text>
+    </g>
+  </g>
+</svg>

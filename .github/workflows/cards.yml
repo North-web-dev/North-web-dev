@@ -1,0 +1,40 @@
+# Rebuild the repository cards and the stats panel on the profile.
+#
+# The cards are committed SVGs rather than a third-party renderer fetched on
+# every page view, which means they are as current as the last build. Once a
+# week is enough for a description or a star count, and workflow_dispatch is
+# there for the day a repo is renamed.
+name: Refresh cards and stats
+
+on:
+  schedule: [{ cron: "17 4 * * 1" }]
+  workflow_dispatch:
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+
+      - name: Build cards and stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/build-cards.mjs
+          node scripts/build-stats.mjs
+
+      - name: Commit if anything moved
+        run: |
+          if git diff --quiet -- assets; then
+            echo "nothing moved"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "assets: refresh cards and stats from the live account"
+          git push
