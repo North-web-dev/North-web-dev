@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/banner.svg" width="100%" alt="North-web-dev — reverse engineering the wire"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/banner.png" width="100%" alt="North-web-dev — reverse engineering the wire"/>
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-whoami.svg" width="100%" alt="誰 whoami"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-whoami.png" width="100%" alt="誰 whoami"/>
 </div>
 
 ```go
@@ -43,49 +43,49 @@ var Me = Dev{
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-tracks.svg" width="100%" alt="領域 tracks"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-tracks.png" width="100%" alt="領域 tracks"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/tracks.svg" width="1000" alt="Three tracks: the wire, quiet automation, shipped products"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/tracks.png" width="1000" alt="Three tracks: the wire, quiet automation, shipped products"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stack.svg" width="100%" alt="道具 stack"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-stack.png" width="100%" alt="道具 stack"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/stack.svg" width="700" alt="Go · Python · TypeScript · C#/.NET · uTLS · curl_cffi · HTTP/2 · TLS·JA3/JA4 · Next.js · Postgres · Playwright · PyTorch"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/stack.png" width="700" alt="Go · Python · TypeScript · C#/.NET · uTLS · curl_cffi · HTTP/2 · TLS·JA3/JA4 · Next.js · Postgres · Playwright · PyTorch"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-work.svg" width="100%" alt="作品 work"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-work.png" width="100%" alt="作品 work"/>
 
 <br/><br/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/impersonate-http.svg" width="100%" alt="impersonate-http — byte-exact browser TLS fingerprint for Go's http.Client"/></a>
+<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/impersonate-http.png" width="100%" alt="impersonate-http — byte-exact browser TLS fingerprint for Go's http.Client"/></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/vfs-monitor"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/vfs-monitor.svg" width="100%" alt="vfs-monitor — cluster-aware appointment slot monitor"/></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/fpcheck"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/fpcheck.svg" width="100%" alt="fpcheck — self-hostable TLS/HTTP2 fingerprint tester and differ"/></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/cf-solver"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/cf-solver.svg" width="100%" alt="cf-solver — local Cloudflare challenge harvest and cf_clearance reuse"/></a>
+<a href="https://github.com/North-web-dev/vfs-monitor"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/vfs-monitor.png" width="100%" alt="vfs-monitor — cluster-aware appointment slot monitor"/></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/tdata-extract.svg" width="100%" alt="tdata-extract — offline Telegram Desktop tdata auth-key and DC extractor"/></a>
+<a href="https://github.com/North-web-dev/fpcheck"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/fpcheck.png" width="100%" alt="fpcheck — self-hostable TLS/HTTP2 fingerprint tester and differ"/></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/poolctl"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/cards/poolctl.svg" width="100%" alt="poolctl — token pool manager and rotating API gateway"/></a>
+<a href="https://github.com/North-web-dev/cf-solver"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/cf-solver.png" width="100%" alt="cf-solver — local Cloudflare challenge harvest and cf_clearance reuse"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/tdata-extract.png" width="100%" alt="tdata-extract — offline Telegram Desktop tdata auth-key and DC extractor"/></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/North-web-dev/poolctl"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/poolctl.png" width="100%" alt="poolctl — token pool manager and rotating API gateway"/></a>
 </td>
 </tr>
 </table>
@@ -94,11 +94,11 @@ var Me = Dev{
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/h-stats.svg" width="100%" alt="記録 stats"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-stats.png" width="100%" alt="記録 stats"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/stats.svg" width="1000" alt="Stars earned, repositories, contributions over the last year, followers, and the language split by bytes"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/stats.png" width="1000" alt="Stars earned, repositories, contributions over the last year, followers, and the language split by bytes"/>
 
 <br/><br/>
 
