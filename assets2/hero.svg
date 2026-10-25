@@ -1,0 +1,101 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#071320"/>
+      <stop offset="0.45" stop-color="#0d2338"/>
+      <stop offset="0.82" stop-color="#1b3a5b"/>
+      <stop offset="1"    stop-color="#24506f"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="42%" cy="38%" r="62%">
+      <stop offset="0"    stop-color="#fbf4df"/>
+      <stop offset="0.75" stop-color="#f1e3bd"/>
+      <stop offset="1"    stop-color="#e6d3a2"/>
+    </radialGradient>
+    <radialGradient id="moonglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f6e9c4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f6e9c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="waveFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e5f86"/><stop offset="1" stop-color="#15324c"/>
+    </linearGradient>
+    <linearGradient id="waveMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27587d"/><stop offset="1" stop-color="#122a42"/>
+    </linearGradient>
+    <linearGradient id="waveBig" x1="0" y1="1" x2="0.3" y2="0">
+      <stop offset="0" stop-color="#16314c"/><stop offset="0.6" stop-color="#2b6490"/><stop offset="1" stop-color="#3f82ad"/>
+    </linearGradient>
+    <pattern id="seigaiha" x="0" y="0" width="56" height="28" patternUnits="userSpaceOnUse">
+      <rect width="56" height="28" fill="#0e2437"/>
+      <g fill="none" stroke="#21496e" stroke-width="2">
+        <path d="M-28,28 a28,28 0 0,1 56,0"/><path d="M0,28 a28,28 0 0,1 56,0"/><path d="M28,28 a28,28 0 0,1 56,0"/>
+      </g>
+      <g fill="none" stroke="#2f6490" stroke-width="1.3" opacity="0.6">
+        <path d="M-18,28 a18,18 0 0,1 36,0"/><path d="M10,28 a18,18 0 0,1 36,0"/><path d="M38,28 a18,18 0 0,1 36,0"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#sky)"/>
+  <rect x="0" y="150" width="1200" height="110" fill="url(#seigaiha)" opacity="0.45"/>
+
+  <g fill="#cfe0ee">
+    <circle cx="120" cy="54" r="1.3" opacity=".8"/><circle cx="250" cy="38" r="1" opacity=".6"/>
+    <circle cx="430" cy="66" r="1.1" opacity=".6"/><circle cx="600" cy="40" r="1" opacity=".5"/>
+    <circle cx="760" cy="58" r="1" opacity=".5"/><circle cx="1050" cy="44" r="1.2" opacity=".7"/>
+    <circle cx="1140" cy="84" r="1" opacity=".6"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="1000" cy="108" r="118" fill="url(#moonglow)"/>
+  <circle cx="1000" cy="108" r="58" fill="url(#moon)"/>
+  <g fill="#e2cf9b" opacity="0.45"><circle cx="982" cy="94" r="8"/><circle cx="1020" cy="106" r="5.5"/><circle cx="994" cy="128" r="6"/></g>
+
+  <!-- vermilion ensō behind kanji -->
+  <circle cx="198" cy="126" r="66" fill="#e34234" opacity="0.13"/>
+  <circle cx="198" cy="126" r="66" fill="none" stroke="#e34234" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- ===== THE GREAT WAVE (stylized, original) ===== -->
+  <!-- far swell -->
+  <path d="M0,300 C180,268 360,272 520,298 C700,328 860,286 1200,300 L1200,380 L0,380 Z" fill="url(#waveFar)" opacity="0.8"/>
+  <!-- mid swell -->
+  <path d="M0,330 C200,308 420,316 620,330 C820,344 1020,322 1200,332 L1200,380 L0,380 Z" fill="#163453"/>
+  <!-- big cresting wave, left-heavy -->
+  <path d="M-20,360
+           C20,300 60,250 150,232
+           C250,212 300,268 250,300
+           C300,250 230,245 210,268
+           C190,292 230,322 300,318
+           C420,310 520,338 680,330
+           C840,322 980,352 1200,338
+           L1200,380 L-20,380 Z" fill="url(#waveBig)"/>
+  <!-- crest lip -->
+  <path d="M150,232 C250,212 300,268 250,300 C286,262 232,250 210,266 C150,236 120,300 110,330
+           C120,270 110,250 150,232 Z" fill="#eaf2f8" opacity="0.95"/>
+  <!-- foam claws cascading right off the crest -->
+  <g fill="#eef5fb">
+    <circle cx="258" cy="236" r="8"/><circle cx="278" cy="228" r="6.4"/><circle cx="298" cy="226" r="5.2"/>
+    <circle cx="318" cy="230" r="4.3"/><circle cx="336" cy="238" r="3.5"/><circle cx="352" cy="248" r="2.9"/>
+    <circle cx="150" cy="300" r="5.5"/><circle cx="132" cy="316" r="4.3"/><circle cx="120" cy="332" r="3.4"/>
+  </g>
+  <!-- foam flecks along swells -->
+  <g fill="#cfe4f2" opacity="0.85">
+    <circle cx="470" cy="322" r="2.3"/><circle cx="560" cy="328" r="2"/><circle cx="700" cy="326" r="2.2"/>
+    <circle cx="880" cy="332" r="2"/><circle cx="1040" cy="330" r="2.2"/><circle cx="1150" cy="334" r="1.8"/>
+  </g>
+
+  <!-- ===== TITLE (centered, clear of wave) ===== -->
+  <text x="198" y="158" text-anchor="middle" font-family="'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP',serif" font-size="82" font-weight="700" fill="#e34234" opacity="0.92">北</text>
+  <text x="640" y="150" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN',system-ui,sans-serif" font-size="62" font-weight="800" letter-spacing="1" fill="#f4ead2">North-web-dev</text>
+  <text x="640" y="184" text-anchor="middle" font-family="'Yu Mincho',serif" font-size="17" letter-spacing="11" fill="#c9b78a">北 海  ·  K I T A K A I</text>
+  <text x="640" y="210" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="14.5" letter-spacing="0.4" fill="#9fb8cc">reverse engineering the wire · byte-exact, or detectable</text>
+
+  <!-- hanko seal, bottom-left corner clear of text -->
+  <g transform="translate(40,300)">
+    <rect x="0" y="0" width="46" height="46" rx="6" fill="#e34234"/>
+    <rect x="4" y="4" width="38" height="38" rx="4" fill="none" stroke="#fbe9df" stroke-width="1.4"/>
+    <text x="23" y="21" text-anchor="middle" font-family="'Yu Mincho',serif" font-size="15" font-weight="700" fill="#fbe9df">北斎</text>
+    <text x="23" y="38" text-anchor="middle" font-family="'Yu Mincho',serif" font-size="12" fill="#fbe9df" opacity="0.92">の波</text>
+  </g>
+
+  <rect x="6" y="6" width="1188" height="368" rx="10" fill="none" stroke="#d9a441" stroke-width="1" opacity="0.45"/>
+</svg>

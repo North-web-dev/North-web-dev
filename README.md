@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/banner.png" width="100%" alt="North-web-dev — reverse engineering the wire"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/hero.png" width="100%" alt="North-web-dev — reverse engineering the wire"/>
 
 <br/><br/>
 
