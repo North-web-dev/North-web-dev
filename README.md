@@ -1,118 +1,69 @@
+<!-- North-web-dev · ukiyo-e profile · assets in assets2/ (SVG sources + 2x PNG) -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/hero.png" width="100%" alt="North-web-dev — reverse engineering the wire"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/hero.png" width="100%" alt="North-web-dev — reverse engineering the wire · byte-exact, or detectable"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=D9455F&center=true&vCenter=true&width=620&lines=TLS+%2F+JA3-JA4+fingerprinting;HTTP%2F2+impersonation+%26+anti-detect;quiet+automation+%C2%B7+protocol+RE;and+products+that+actually+take+money" alt="TLS/JA3 fingerprinting · HTTP/2 impersonation · quiet automation · shipped products"/>
-
-<br/><br/>
-
-<a href="https://github.com/North-web-dev?tab=repositories"><img src="https://img.shields.io/badge/repos-17_public-d9455f?style=flat-square&logo=github&logoColor=white&labelColor=160f1c" alt="17 public repositories"/></a>
+<a href="https://github.com/North-web-dev?tab=repositories"><img src="https://img.shields.io/badge/repos-17_public-e34234?style=flat-square&logo=github&logoColor=f4ead2&labelColor=0d2338" alt="17 public repositories"/></a>
 &nbsp;
-<a href="https://github.com/avelino/awesome-go#security"><img src="https://img.shields.io/badge/awesome--go-featured-e6a23c?style=flat-square&logo=go&logoColor=white&labelColor=160f1c" alt="Featured in awesome-go"/></a>
+<a href="https://github.com/avelino/awesome-go#security"><img src="https://img.shields.io/badge/awesome--go-featured-d9a441?style=flat-square&logo=go&logoColor=f4ead2&labelColor=0d2338&color=d9a441" alt="Featured in awesome-go"/></a>
 &nbsp;
-<a href="https://github.com/North-web-dev?tab=followers"><img src="https://img.shields.io/github/followers/North-web-dev?style=flat-square&logo=github&logoColor=f5a9c1&color=d9455f&labelColor=160f1c&label=followers" alt="followers"/></a>
+<a href="https://github.com/North-web-dev?tab=followers"><img src="https://img.shields.io/github/followers/North-web-dev?style=flat-square&logo=github&logoColor=f4ead2&color=2e5f86&labelColor=0d2338&label=followers" alt="followers"/></a>
 &nbsp;
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/github/stars/North-web-dev/impersonate-http?style=flat-square&logo=github&logoColor=e6a23c&color=e6a23c&labelColor=160f1c&label=impersonate-http" alt="stars on impersonate-http"/></a>
+<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://img.shields.io/github/stars/North-web-dev/impersonate-http?style=flat-square&logo=github&logoColor=d9a441&color=d9a441&labelColor=0d2338&label=impersonate-http" alt="stars on impersonate-http"/></a>
 
 </div>
 
 <br/>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-whoami.png" width="100%" alt="誰 whoami"/>
-</div>
-
-```go
-package north // 北
-
-var Me = Dev{
-    Way:   "reverse engineer · quiet automation · ship the thing",
-    Langs: []string{"Go", "Python", "TypeScript", "C#/.NET"},
-    Wire:  []string{"JA3/JA4", "HTTP/2 frames", "TLS ClientHello", "Akamai h2", "MTProto"},
-    Ship:  []string{"Next.js", "Prisma", "Postgres", "Playwright"},
-    Rule:  "if it isn't byte-exact, it's detectable",
-}
-
-// Two halves of the same habit: take a protocol apart until the bytes
-// are boring, then put something in production that depends on them.
-```
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/sec-whoami.png" width="100%" alt="whoami — package north: reverse the wire, then ship on it"/>
 
 <br/>
 
-<div align="center">
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/sec-tracks.png" width="100%" alt="tracks — the wire · quiet automation · shipped products"/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-tracks.png" width="100%" alt="領域 tracks"/>
+<br/>
 
-<br/><br/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/sec-stack.png" width="100%" alt="stack — Go, Python, TypeScript, uTLS, curl_cffi, HTTP/2, TLS·JA3/JA4, Next.js, Postgres, Playwright"/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/tracks.png" width="1000" alt="Three tracks: the wire, quiet automation, shipped products"/>
+<br/>
 
-<br/><br/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/sec-work.png" width="100%" alt="work — selected works"/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-stack.png" width="100%" alt="道具 stack"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/stack.png" width="700" alt="Go · Python · TypeScript · C#/.NET · uTLS · curl_cffi · HTTP/2 · TLS·JA3/JA4 · Next.js · Postgres · Playwright · PyTorch"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-work.png" width="100%" alt="作品 work"/>
-
-<br/><br/>
-
-<table>
+<table border="0" cellspacing="12" cellpadding="0">
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/impersonate-http"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/impersonate-http.png" width="100%" alt="impersonate-http — byte-exact browser TLS fingerprint for Go's http.Client"/></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/vfs-monitor"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/vfs-monitor.png" width="100%" alt="vfs-monitor — cluster-aware appointment slot monitor"/></a>
-</td>
+<td width="50%"><a href="https://github.com/North-web-dev/impersonate-http"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/impersonate-http.png" width="100%" alt="impersonate-http — byte-exact browser TLS (uTLS) for Go's http.Client"/></a></td>
+<td width="50%"><a href="https://github.com/North-web-dev/vfs-monitor"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/vfs-monitor.png" width="100%" alt="vfs-monitor — cluster-aware appointment-slot monitor"/></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/fpcheck"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/fpcheck.png" width="100%" alt="fpcheck — self-hostable TLS/HTTP2 fingerprint tester and differ"/></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/cf-solver"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/cf-solver.png" width="100%" alt="cf-solver — local Cloudflare challenge harvest and cf_clearance reuse"/></a>
-</td>
+<td width="50%"><a href="https://github.com/North-web-dev/fpcheck"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/fpcheck.png" width="100%" alt="fpcheck — self-host TLS/HTTP2 fingerprint tester and differ"/></a></td>
+<td width="50%"><a href="https://github.com/North-web-dev/fingerprint-db"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/fingerprint-db.png" width="100%" alt="fingerprint-db — measured JA3/JA4 + Akamai HTTP/2 fingerprints as JSON"/></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/tdata-extract"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/tdata-extract.png" width="100%" alt="tdata-extract — offline Telegram Desktop tdata auth-key and DC extractor"/></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/North-web-dev/poolctl"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/cards/poolctl.png" width="100%" alt="poolctl — token pool manager and rotating API gateway"/></a>
-</td>
+<td width="50%"><a href="https://github.com/North-web-dev/cf-solver"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/cf-solver.png" width="100%" alt="cf-solver — local Cloudflare challenge harvest and cf_clearance reuse"/></a></td>
+<td width="50%"><a href="https://github.com/North-web-dev/tdata-extract"><img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/cards/tdata-extract.png" width="100%" alt="tdata-extract — offline Telegram Desktop tdata auth-key and DC extractor"/></a></td>
 </tr>
 </table>
 
-<sub>also around: <a href="https://github.com/North-web-dev/fingerprint-db">fingerprint-db</a> · <a href="https://github.com/North-web-dev/tgcloak">tgcloak</a> · <a href="https://github.com/North-web-dev/p2c-sniper">p2c-sniper</a> · <a href="https://github.com/North-web-dev/tg-ws-proxy-pc">tg-ws-proxy-pc</a> · <a href="https://github.com/North-web-dev/claude-cookie-session">claude-cookie-session</a></sub>
+<sub>also around &nbsp;·&nbsp; <a href="https://github.com/North-web-dev/poolctl">poolctl</a> &nbsp;·&nbsp; <a href="https://github.com/North-web-dev/p2c-sniper">p2c-sniper</a> &nbsp;·&nbsp; <a href="https://github.com/North-web-dev/tgcloak">tgcloak</a> &nbsp;·&nbsp; <a href="https://github.com/North-web-dev/claude-cookie-session">claude-cookie-session</a> &nbsp;·&nbsp; <a href="https://github.com/North-web-dev/karta-polaka-slot-bot">karta-polaka-slot-bot</a></sub>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/h-stats.png" width="100%" alt="記録 stats"/>
+<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets2/sec-stats.png" width="100%" alt="stats — 28 stars, 17 public repos, 89 contributions in the last year, 5 followers; language split; 52-week contribution heatmap"/>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/North-web-dev"><img width="520" alt="contribution streak" src="https://streak-stats.demolab.com/?user=North-web-dev&background=0d2338&border=d9a441&stroke=d9a441&ring=e34234&fire=e34234&currStreakLabel=f4ead2&sideLabels=f4ead2&dates=7fa8c9&currStreakNum=f4ead2&sideNums=f4ead2&dayLabels=7fa8c9&hide_border=false"/></a>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/main/assets/png/stats.png" width="1000" alt="Stars earned, repositories, contributions over the last year, followers, and the language split by bytes"/>
+<img src="https://komarev.com/ghpvc/?username=North-web-dev&label=visitors&color=e34234&style=flat-square" alt="visitor count"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake-dark.svg"/>
-  <img alt="contribution snake" width="100%" src="https://raw.githubusercontent.com/North-web-dev/North-web-dev/output/github-snake.svg"/>
-</picture>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=North-web-dev&label=visitors&color=6d2b45&style=flat-square" alt="visitor count"/>
-
-<br/><br/>
-
-<sub>「 極めて正確に · byte-exact, or detectable 」</sub>
+<sub>「 極めて正確に &nbsp;·&nbsp; byte-exact, or detectable 」</sub>
 
 </div>

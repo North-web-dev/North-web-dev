@@ -1,0 +1,14 @@
+<svg width="560" height="150" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg"><defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1726"/><stop offset="1" stop-color="#0d2338"/>
+    </linearGradient>
+    <pattern id="sei" x="0" y="0" width="56" height="28" patternUnits="userSpaceOnUse">
+      <rect width="56" height="28" fill="#0a1726"/>
+      <g fill="none" stroke="#1b3a5b" stroke-width="2">
+        <path d="M-28,28 a28,28 0 0,1 56,0"/><path d="M0,28 a28,28 0 0,1 56,0"/><path d="M28,28 a28,28 0 0,1 56,0"/>
+      </g>
+      <g fill="none" stroke="#2e5f86" stroke-width="1.2" opacity="0.55">
+        <path d="M-18,28 a18,18 0 0,1 36,0"/><path d="M10,28 a18,18 0 0,1 36,0"/><path d="M38,28 a18,18 0 0,1 36,0"/>
+      </g>
+    </pattern>
+  </defs><rect width="560" height="150" rx="12" fill="#102a44"/><rect x="0" y="50" width="560" height="100" fill="url(#sei)" opacity="0.1"/><rect x="0.6" y="0.6" width="558.8" height="148.8" rx="12" fill="none" stroke="#d9a441" stroke-width="1" stroke-opacity="0.3"/><rect x="0" y="0" width="5" height="150" fill="#e34234"/><text x="26" y="40" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="20" font-weight="700" fill="#f4ead2">vfs-monitor</text><circle cx="30" cy="64" r="6" fill="#3572A5"/><text x="44" y="69" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="13" fill="#8ea7bd">Python</text><text x="532" y="69" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="13" fill="#d9a441">★ 7</text><text x="26" y="100" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#eef5fb">Cluster-aware appointment-slot monitor.</text><text x="26" y="122" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8ea7bd">Account pool, CF/captcha, Telegram alerts.</text></svg>
