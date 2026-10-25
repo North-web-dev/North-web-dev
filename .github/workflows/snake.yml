@@ -1,8 +1,7 @@
 name: Generate Snake
 on:
-  schedule: [{cron: "0 */12 * * *"}]
+  # snake retired from README (ukiyo-e redesign) — manual-only, no auto-runs
   workflow_dispatch:
-  push: {branches: [main]}
 jobs:
   generate:
     runs-on: ubuntu-latest
