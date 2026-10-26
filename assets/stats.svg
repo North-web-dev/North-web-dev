@@ -1,5 +1,5 @@
 <svg width="1000" height="230" viewBox="0 0 1000 230" fill="none" xmlns="http://www.w3.org/2000/svg"
-     role="img" aria-label="28 stars across 17 repositories, 89 contributions in the last year, 5 followers"
+     role="img" aria-label="26 stars across 26 repositories, 102 contributions in the last year, 5 followers"
      font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
   <defs>
     <linearGradient id="sbg" x1="0" y1="0" x2="0.35" y2="1">
@@ -24,17 +24,17 @@
 
   <g transform="translate(40,72)">
       <rect width="4" height="34" rx="2" fill="#e6a23c"/>
-      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">28</text>
+      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">26</text>
       <text x="18" y="31" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#8d7186">STARS EARNED</text>
     </g>
   <g transform="translate(230,72)">
       <rect width="4" height="34" rx="2" fill="#d9455f"/>
-      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">17</text>
+      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">26</text>
       <text x="18" y="31" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#8d7186">REPOSITORIES</text>
     </g>
   <g transform="translate(40,140)">
       <rect width="4" height="34" rx="2" fill="#f5a9c1"/>
-      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">89</text>
+      <text x="18" y="16" font-size="24" font-weight="700" fill="#f6ebf0">102</text>
       <text x="18" y="31" font-size="11.5" font-weight="600" letter-spacing="1.6" fill="#8d7186">CONTRIBUTIONS · 1Y</text>
     </g>
   <g transform="translate(230,140)">
@@ -48,45 +48,46 @@
   <text x="452" y="74" font-size="13" font-weight="700" letter-spacing="3" fill="#f5a9c1" opacity="0.85">LANGUAGES</text>
   <text x="960" y="74" text-anchor="end" font-size="11" fill="#8d7186">by bytes · private repos included</text>
   <g clip-path="url(#sbar)">
-    <rect x="452.0" y="92" width="247.3" height="14" fill="#3572A5"/>
-      <rect x="699.3" y="92" width="231.6" height="14" fill="#00ADD8"/>
-      <rect x="930.9" y="92" width="23.4" height="14" fill="#f1e05a"/>
-      <rect x="954.3" y="92" width="3.6" height="14" fill="#89e051"/>
-      <rect x="957.9" y="92" width="3.0" height="14" fill="#f34b7d"/>
-      <rect x="960.9" y="92" width="3.0" height="14" fill="#384d54"/>
+    <rect x="452.0" y="92" width="283.8" height="14" fill="#00ADD8"/>
+      <rect x="735.8" y="92" width="109.7" height="14" fill="#3572A5"/>
+      <rect x="845.5" y="92" width="55.3" height="14" fill="#4F5D95"/>
+      <rect x="900.8" y="92" width="20.6" height="14" fill="#dea584"/>
+      <rect x="921.3" y="92" width="15.3" height="14" fill="#e34c26"/>
+      <rect x="936.7" y="92" width="12.4" height="14" fill="#f1e05a"/>
+      <rect x="949.1" y="92" width="10.9" height="14" fill="#8d7186" opacity="0.5"/>
   </g>
   <rect x="452" y="92" width="508" height="14" rx="7" fill="none" stroke="#3a1c33"/>
 
   <g>
     <g transform="translate(452,136)">
-        <circle cx="6" cy="-4" r="5" fill="#3572A5"/>
-        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Python</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">48.7%</text>
-      </g>
-      <g transform="translate(628,136)">
         <circle cx="6" cy="-4" r="5" fill="#00ADD8"/>
         <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Go</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">45.6%</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">55.9%</text>
+      </g>
+      <g transform="translate(628,136)">
+        <circle cx="6" cy="-4" r="5" fill="#3572A5"/>
+        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Python</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">21.6%</text>
       </g>
       <g transform="translate(452,162)">
-        <circle cx="6" cy="-4" r="5" fill="#f1e05a"/>
-        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">JavaScript</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">4.6%</text>
+        <circle cx="6" cy="-4" r="5" fill="#4F5D95"/>
+        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">PHP</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">10.9%</text>
       </g>
       <g transform="translate(628,162)">
-        <circle cx="6" cy="-4" r="5" fill="#89e051"/>
-        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Shell</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">0.7%</text>
+        <circle cx="6" cy="-4" r="5" fill="#dea584"/>
+        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Rust</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">4.0%</text>
       </g>
       <g transform="translate(452,188)">
-        <circle cx="6" cy="-4" r="5" fill="#f34b7d"/>
-        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">C++</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">0.3%</text>
+        <circle cx="6" cy="-4" r="5" fill="#e34c26"/>
+        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">HTML</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">3.0%</text>
       </g>
       <g transform="translate(628,188)">
-        <circle cx="6" cy="-4" r="5" fill="#384d54"/>
-        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">Dockerfile</text>
-        <text x="126" y="0" font-size="12" fill="#8d7186">0.1%</text>
+        <circle cx="6" cy="-4" r="5" fill="#f1e05a"/>
+        <text x="20" y="0" font-size="12.5" font-weight="600" fill="#c7abbb">JavaScript</text>
+        <text x="126" y="0" font-size="12" fill="#8d7186">2.4%</text>
       </g>
   </g>
 </svg>
